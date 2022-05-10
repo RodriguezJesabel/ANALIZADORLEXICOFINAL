@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainwindow01</class>
+ <widget class="QMainWindow" name="mainwindow01">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1295</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PROYECTO ANALIZADOR LÉXICO SPES</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/Icono.png</normaloff>:/Icono.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: white</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>490</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(14, 0, 94);color:white
+;</string>
+    </property>
+    <property name="text">
+     <string>Abrir un Archivo</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>411</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Texto a analizar</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 4px solid ;
+border-color: rgb(93, 67, 81);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>490</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(14, 0, 94);color:white
+;</string>
+    </property>
+    <property name="text">
+     <string>Guardar archivo</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>90</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(93, 67, 81)</string>
+    </property>
+    <property name="text">
+     <string>C O N T E N I D O</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>170</y>
+      <width>431</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>Resultado del analisis, puede que sea necesario que bajes para ver el resultado completo</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 4px solid ;
+border-color: rgb(93, 67, 81);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAnaliza">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>250</y>
+      <width>281</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Pulsa para analizar</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(14, 0, 94);color:white
+;</string>
+    </property>
+    <property name="text">
+     <string>Analisis lexico</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>90</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(93, 67, 81)</string>
+    </property>
+    <property name="text">
+     <string>R E S U L T A D O</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1295</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
